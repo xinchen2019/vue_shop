@@ -70,11 +70,11 @@ export default {
       // 左侧菜单数据
       menuList: [],
       iconObj: {
-        '125': 'iconfont icon-user',
-        '103': 'iconfont icon-tijikongjian',
-        '101': 'iconfont icon-shangpin',
-        '102': 'iconfont icon-danju',
-        '145': 'iconfont icon-baobiao'
+        125: 'iconfont icon-user',
+        103: 'iconfont icon-tijikongjian',
+        101: 'iconfont icon-shangpin',
+        102: 'iconfont icon-danju',
+        145: 'iconfont icon-baobiao'
       },
       // 默认不折叠
       isCollapse: false,
@@ -116,7 +116,7 @@ export default {
   height: 100%;
 }
 .el-header {
-  background-color: #373f41;
+  background-color: #3e4137;
   display: flex;
   justify-content: space-between;
   padding-left: 0;

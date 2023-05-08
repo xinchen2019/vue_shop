@@ -8,6 +8,10 @@ const Welcome = () => import(/* webpackChunkName: "Login_Home_Welcome" */ '../co
 
 const Users = () => import(/* webpackChunkName: "Users_Rights_Roles" */ '../components/user/User.vue')
 
+const Rights = () => import(/* webpackChunkName: "Users_Rights_Roles" */ '../components/power/Rights.vue')
+const Roles = () => import(/* webpackChunkName: "Users_Rights_Roles" */ '../components/power/Roles.vue')
+
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -22,8 +26,8 @@ const routes = [
     children: [
       { path: '/home', component: Welcome },
       { path: '/users', component: Users },
-      // { path: '/rights', component: Rights },
-      // { path: '/roles', component: Roles },
+      { path: '/rights', component: Rights },
+      { path: '/roles', component: Roles }
       // { path: '/categories', component: Cate },
       // { path: '/params', component: Params },
       // { path: '/goods', component: GoodsList },
